@@ -1,0 +1,22 @@
+# Ignore virtual environment directory
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore generated diagrams
+diagrams/*.png
+diagrams/*.svg
+
+# Ignore data files that are generated or too large
+data/processed/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables file
+.env
+/notebooks
+/data
+/plots
